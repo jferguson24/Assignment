@@ -9,11 +9,12 @@ public class Geometry {
 		Triangle triangle = new Triangle(5,3);
 	
 		
-		
 		circle.display();
+		System.out.println("Area is of the circle is: " + circle.calculateArea());
 		rect.display();
+		System.out.println("Area is of the rectangle is : " + rect.calculateArea());
 		triangle.display();
-		// TODO Auto-generated method stub
+		System.out.println("Area is of the triangle is : " + triangle.calculateArea());
 
 	}
 
